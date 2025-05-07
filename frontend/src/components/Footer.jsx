@@ -7,7 +7,7 @@ export default function Footer() {
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
             <a href="/" class="flex items-center">
-              <img src="/logoo.png" class="size-12 mr-5" alt="Logo" />
+              <img src="https://cdn-icons-png.flaticon.com/128/3170/3170733.png" class="size-12 mr-5" alt="Logo" />
               <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
                 Muxel Vort
               </span>

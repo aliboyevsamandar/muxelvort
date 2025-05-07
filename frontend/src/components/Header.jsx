@@ -9,7 +9,7 @@ export default function Header() {
       <div className="max-w-screen-xl flex items-center justify-between mx-auto px-4 md:px-8">
         <div className="flex items-center justify-between w-full lg:w-auto">
           <Link to="/" className="flex items-center gap-4">
-            <img src="/logoo.png" className="w-12" alt="Logo" />
+            <img src="https://cdn-icons-png.flaticon.com/128/3170/3170733.png" className="w-12" alt="Logo" />
             <span className="self-center text-2xl font-bold whitespace-nowrap dark:text-white text-white">
               Muxel Vort
             </span>

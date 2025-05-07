@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-let baseURL = `http://localhost:2000/api`
+let baseURL = `https://muxelvort.onrender.com/api`
 
 export const $api = axios.create({
     baseURL: baseURL,
