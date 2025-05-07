@@ -195,7 +195,7 @@ export default function Admin() {
           {foods.map((item) => (
             <div
               key={item._id}
-              className="w-[270px] bg-white border border-gray-200 rounded-xl hover:shadow-xl transition-transform duration-300 transform hover:scale-[1.02] dark:bg-slate-900 dark:border-gray-700 flex flex-col"
+              className="w-[270px] bg-white border border-gray-200 rounded-xl hover:shadow-xl transition-transform duration-300 transform hover:scale-[1.02] flex flex-col"
             >
               <img
                 className="p-4 w-full h-48 object-cover rounded-t-lg"
@@ -203,12 +203,12 @@ export default function Admin() {
                 alt={item.name}
               />
               <div className="px-5 pb-5 flex flex-col justify-between flex-grow">
-                <h5 className="text-2xl text-center font-semibold text-gray-900 dark:text-white mb-2">
+                <h5 className="text-2xl text-center font-semibold text-gray-900 ">
                   {item.name}
                 </h5>
                 <div className="flex items-center justify-between">
                   <p className="text-gray-500 text-lg">{item.category}</p>
-                  <span className="text-2xl font-bold text-blue-500 dark:text-white">
+                  <span className="text-2xl font-bold text-blue-500">
                     ${item.price}
                   </span>
                 </div>
