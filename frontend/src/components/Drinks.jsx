@@ -36,7 +36,7 @@ export default function Drinks() {
             data.map((item) => (
               <div
                 key={item.id || item._id}
-                className="w-[270px] cursor-pointer max-w-sm bg-white border border-gray-200 rounded-xl hover:shadow-gray-500 hover:shadow-[0px_0px_13px_3px] duration-700 hover:scale-[1.02] h-[330px] flex flex-col"
+                className="w-[270px] cursor-pointer max-w-sm bg-slate-900 rounded-xl hover:shadow-gray-500 hover:shadow-[0px_0px_13px_3px] duration-700 hover:scale-[1.02] h-[330px] flex flex-col"
               >
                 <img
                   className="p-4 hover:opacity-80 w-full h-48 duration-300 rounded-t-lg transition-all object-cover"
@@ -44,7 +44,7 @@ export default function Drinks() {
                   alt={item.name}
                 />
                 <div className="px-5 pb-5 flex flex-col justify-between flex-grow">
-                  <h5 className="text-2xl text-center font-semibold tracking-tight text-gray-900 mb-2">
+                  <h5 className="text-2xl text-center font-semibold tracking-tight text-white mb-2">
                     {item.name}
                   </h5>
                   <div className="flex items-center justify-between mt-auto">

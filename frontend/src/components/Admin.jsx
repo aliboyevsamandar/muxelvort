@@ -161,7 +161,7 @@ export default function Admin() {
           <select
             value={form.category}
             onChange={(e) => setForm({ ...form, category: e.target.value })}
-            className="p-4 rounded-lg bg-slate-700/60 text-white"
+            className="p-4 py-4 rounded-lg bg-slate-700/60 text-white"
           >
             <option value="">Choose</option>
             <option value="foods">Foods</option>
@@ -195,7 +195,7 @@ export default function Admin() {
           {foods.map((item) => (
             <div
               key={item._id}
-              className="w-[270px] bg-white border border-gray-200 rounded-xl hover:shadow-xl transition-transform duration-300 transform hover:scale-[1.02] flex flex-col"
+              className="w-[270px] bg-slate-900 rounded-xl hover:shadow-xl transition-transform duration-300 transform hover:scale-[1.02] flex flex-col"
             >
               <img
                 className="p-4 w-full h-48 object-cover rounded-t-lg"
@@ -203,7 +203,7 @@ export default function Admin() {
                 alt={item.name}
               />
               <div className="px-5 pb-5 flex flex-col justify-between flex-grow">
-                <h5 className="text-2xl text-center font-semibold text-gray-900 ">
+                <h5 className="text-2xl text-center font-semibold text-white ">
                   {item.name}
                 </h5>
                 <div className="flex items-center justify-between">

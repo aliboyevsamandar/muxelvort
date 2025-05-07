@@ -2,23 +2,23 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer class="bg-white dark:bg-gray-900">
+    <footer class="bg-gray-900">
       <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
             <a href="/" class="flex items-center">
               <img src="https://cdn-icons-png.flaticon.com/128/3170/3170733.png" class="size-12 mr-5" alt="Logo" />
-              <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+              <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">
                 Muxel Vort
               </span>
             </a>
           </div>
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
-              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+              <h2 class="mb-6 text-sm font-semibold uppercase text-white">
                 Follow us
               </h2>
-              <ul class="text-gray-500 dark:text-gray-400 font-medium">
+              <ul class="text-gray-400 font-medium">
                 <li class="mb-4">
                   <a href="https://github.com/aliboyevsamandar?tab=repositories">
                     Github
@@ -32,10 +32,10 @@ export default function Footer() {
               </ul>
             </div>
             <div>
-              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+              <h2 class="mb-6 text-sm font-semibold uppercase text-white">
                 Info
               </h2>
-              <ul class="text-gray-500 dark:text-gray-400 font-medium">
+              <ul class="text-gray-400 font-medium">
                 <li class="mb-4">
                   <a href="#">Samandar</a>
                 </li>
@@ -46,16 +46,16 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <hr class="my-6 sm:mx-auto border-gray-700 lg:my-8" />
         <div class="sm:flex sm:items-center sm:justify-between">
-          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+          <span class="text-sm sm:text-center text-gray-400">
             © 2025 <p class="hover:underline">MuxelVort™</p>. All Rights
             Reserved.
           </span>
           <div class="flex mt-4 sm:justify-center sm:mt-0">
             <a
               href="https://github.com/aliboyevsamandar?tab=repositories"
-              class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
+              class="text-gray-400  hover:text-white ms-5"
             >
               <svg
                 class="w-4 h-4"
